@@ -34,12 +34,38 @@ padding:20px;}
 font-size:24px;
 font-family:cursive;
 }
+.main-banner{width:100%;max-height:300px;
+overflow:hidden;
+}
+.slider{overflow:hidden;}
+.slides{positon:relative;width:200%;margin:0%;padding:0px;
+text-align:left;
+animation:slide-cycle 19s infinite;
+}
+.slides img{width:10%;height:300px;float:left;
+}
+@keyframes slide-cycle{
+0%{margin-left:0%;}
+10%{margin-left:-20%}
+20%{margin-left:-40%}
+30%margin-{left:-60%}
+40%{margin-left:-80%}
+50%{margin-left:-100%}
+60%{margin-left:-80%}
+70%{margin-left:-60%}
+80%{margin-left:-40%}
+90%{margin-left:-20%}
+100%{margin-left:0%}
+}
+
+
+
 </style>
 </head>
 <body>
 <header><h1>Welcome To PUPLIFE</h1>
 <nav><ul>
-<li><a href="index.html">Home</a></li>
+<li><a href="dogs.html">Home</a></li>
 <li> | </li>
 <li><a href="breeds.html">Breeds</a></li>
 <li> | </li>
@@ -47,7 +73,22 @@ font-family:cursive;
 </ul>
 </nav>
 </header><main>
-
+<div class="main-banner">
+<div class="slider">
+<div class="slides">
+<img src="https://downtownbrooklyn.com/wp-content/uploads/2024/02/pupsdaycare-e1706892244622.jpg">
+<img src="https://images.ctfassets.net/sfnkq8lmu5d7/4Ma58uke8SXDQLWYefWiIt/3f1945422ea07ea6520c7aae39180101/2021-11-24_Singleton_Puppy_Syndrome_One_Puppy_Litter.jpg?w=1000&h=750&fl=progressive&q=70&fm=jpg">
+<img src="https://www.yarrah.com/media/45/c9/3f/1646918366/yarrah-what-can-a-pup-eat-and-drink-tips-on-the-right-food-for-pups.jpeg">
+<img src="https://cdn.shopify.com/s/files/1/0840/6049/files/0012_Overview.jpg?v=1676742812">
+<img src="https://i.pinimg.com/736x/09/69/e5/0969e59bdf26244217b07490086158f3.jpg">
+<img src="https://downtownbrooklyn.com/wp-content/uploads/2024/02/pupsdaycare-e1706892244622.jpg">
+<img src="https://images.ctfassets.net/sfnkq8lmu5d7/4Ma58uke8SXDQLWYefWiIt/3f1945422ea07ea6520c7aae39180101/2021-11-24_Singleton_Puppy_Syndrome_One_Puppy_Litter.jpg?w=1000&h=750&fl=progressive&q=70&fm=jpg">
+<img src="https://www.yarrah.com/media/45/c9/3f/1646918366/yarrah-what-can-a-pup-eat-and-drink-tips-on-the-right-food-for-pups.jpeg">
+<img src="https://cdn.shopify.com/s/files/1/0840/6049/files/0012_Overview.jpg?v=1676742812">
+<img src="https://i.pinimg.com/736x/09/69/e5/0969e59bdf26244217b07490086158f3.jpg">
+</div>
+</div>
+</div>
 <section class="dogimg">
 <h3 class="contet">this is all about caring for your pups</h3>
 </section>
